@@ -34,6 +34,9 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , random
+    , hspec
+    , QuickCheck
   default-language: Haskell2010
 
 executable genalg-exe
@@ -46,6 +49,9 @@ executable genalg-exe
   build-depends:
       base >=4.7 && <5
     , genalg
+    , random
+    , hspec
+    , QuickCheck
   default-language: Haskell2010
 
 test-suite genalg-test
